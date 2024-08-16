@@ -12,7 +12,7 @@ DEBUG_SYMBOLS		= -g
 # defines the preprocessor macro "BUFFER_SIZE" with a value of "BUFFER_VAL"
 DEFINE_BUFFER		= -D BUFFER_SIZE=${BUFFER_VAL}
 
-SOURCE_FILES		= ../../get_next_line_utils.c ../../get_next_line.c ./main.c
+SOURCE_FILES		= ../../../get_next_line_utils.c ../../../get_next_line.c ./main.c
 
 DELETE			= rm -f
 
