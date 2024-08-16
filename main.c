@@ -9,7 +9,7 @@ int	main(void)
 	int	fd;
 	char	*data_obtained;
 
-	fd = open("./reading_files/output.txt", O_RDONLY);
+	fd = open("./reading_files/file_nocontent.txt", O_RDONLY);
 	if (fd == -1)
 	{
 		printf("ERROR: the file could not be opened.\n");
