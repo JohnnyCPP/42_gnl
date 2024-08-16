@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c			                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jonnavar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/01 01:17:10 by jonnavar          #+#    #+#             */
+/*   Updated: 2024/08/01 01:17:21 by jonnavar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include "./get_next_line.h"
 // printf() for debugging
 #include <stdio.h>
@@ -6,7 +17,7 @@
 
 int	main(void)
 {
-	int	fd;
+	int		fd;
 	char	*data_obtained;
 
 	fd = open("./reading_files/file_nocontent.txt", O_RDONLY);
