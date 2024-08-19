@@ -1,4 +1,5 @@
 #include "../../../get_next_line.h"
+#include <stdio.h>
 // for strcmp() function
 #include <string.h>
 

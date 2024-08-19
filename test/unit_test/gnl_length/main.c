@@ -1,4 +1,5 @@
 #include "../../../get_next_line.h"
+#include <stdio.h>
 
 static	int	test_equals(int value, int reference)
 {
