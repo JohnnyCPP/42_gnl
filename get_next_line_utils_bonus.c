@@ -77,7 +77,7 @@ char	*gnl_copy(const char *string)
 	if (!result)
 		return (NULL);
 	index = -1;
-	while (index ++ < result_length)
+	while (++ index < result_length)
 		result[index] = string[index];
 	return (result);
 }

@@ -1,4 +1,4 @@
-#include "../../../get_next_line_bonus.h"
+#include "../../../get_next_line.h"
 // printf() for debugging
 #include <stdio.h>
 // for strcmp() function
